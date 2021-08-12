@@ -155,6 +155,17 @@ public class LinkedList {
         }
     }
 
+    int[] toArray(){
+        int[] array = new int[size()];
+        int count = 0;
+        Node temp = head;
+        while(temp!=null) {
+            array[count++] = temp.data;
+            temp = temp.next;
+        }
+        return array;
+    }
+
     void print(){
         Node temp = head;
         while(temp != null) {

@@ -23,6 +23,9 @@ Clone the repo, create an object of `LinkedList` class and use the functions
 ## Size of the list
 - int size();
 
+## Converting to array
+- int[] toArray();
+
 ## Reversing the list
 - void reverseList();
 
