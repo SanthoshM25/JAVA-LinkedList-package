@@ -115,6 +115,17 @@ public class LinkedList {
         return -1;
     }
 
+    int size(){
+        if(head == null) return 0;
+        int size = 0;
+        Node temp = head;
+        while(temp!=null) {
+            temp = temp.next;
+            size++;
+        }
+        return size;
+    }
+
     void reverseList(){
         if(head == null) return;
         Node previous = head;

@@ -20,6 +20,9 @@ Clone the repo, create an object of `LinkedList` class and use the functions
 ## Printing the list
 - void print();
 
+## Size of the list
+- int size();
+
 ## Reversing the list
 - void reverseList();
 
